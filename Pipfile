@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+flask = "*"
+jinja2 = "*"
+flask_sqlalchemy = "*"
+pandas = "*"
+numpy = "*"
+python-dotenv = "*"
+sklearn = "*"
+joblib = "*"
+spotipy = "*"
+ipykernel = "*"
+
+[dev-packages]
+ipykernel = "*"
+
+[requires]
+python_version = "3.9"
